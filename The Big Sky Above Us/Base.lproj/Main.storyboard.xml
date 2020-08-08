@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="The_Big_Sky_Above_Us" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qmi-3J-aGE">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </arscnView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HIy-Dk-IHm">
+                                <rect key="frame" x="342" y="20" width="33" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="33" id="JIV-y5-0d2"/>
+                                    <constraint firstAttribute="height" constant="33" id="Kez-hx-vUs"/>
+                                </constraints>
+                                <state key="normal" image="#RestartScene"/>
+                                <connections>
+                                    <action selector="resetPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I93-Uv-75y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pzk-Do-mLN">
+                                <rect key="frame" x="0.0" y="310" width="30" height="46"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <state key="normal" title="&lt;">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="lastPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="urA-kk-6wU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3sh-wI-PSK">
+                                <rect key="frame" x="345" y="310" width="30" height="46"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <state key="normal" title="&gt;">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QdG-38-K08"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wsd-EZ-nW0">
+                                <rect key="frame" x="70" y="473" width="305" height="194"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="194" id="bHL-7j-QUB"/>
+                                    <constraint firstAttribute="width" constant="305" id="jMh-fZ-NaJ"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt purus vel tortor tempus ultricies. Aliquam pharetra turpis ut nibh pretium, id tincidunt velit porttitor. Sed turpis quam, hendrerit vitae tincidunt non, blandit convallis neque. Vestibulum bibendum semper fermentum. </string>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vqb-2x-Omh">
+                                <rect key="frame" x="16" y="473" width="52" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="Map">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="mapTogglePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rcB-eY-HKx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kUc-05-tSj">
+                                <rect key="frame" x="10" y="606" width="58" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                <state key="normal" title="Settings"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8cX-2k-MMw">
+                                <rect key="frame" x="70" y="446" width="228" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
+                                <state key="normal" title="Planet's Menu">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HIy-Dk-IHm" secondAttribute="trailing" id="4w2-fY-PQE"/>
+                            <constraint firstItem="Pzk-Do-mLN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="6nv-v8-TQt"/>
+                            <constraint firstItem="Wsd-EZ-nW0" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Avg-Lm-OUo"/>
+                            <constraint firstItem="Wsd-EZ-nW0" firstAttribute="trailing" secondItem="3sh-wI-PSK" secondAttribute="trailing" id="C6p-r2-8Zk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3sh-wI-PSK" secondAttribute="trailing" id="FMO-8s-RZG"/>
+                            <constraint firstItem="HIy-Dk-IHm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="SSk-8u-fR2"/>
+                            <constraint firstItem="Qmi-3J-aGE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Uim-7B-0hL"/>
+                            <constraint firstItem="Qmi-3J-aGE" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="b9z-gc-gsf"/>
+                            <constraint firstItem="Pzk-Do-mLN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gnz-eL-cE4"/>
+                            <constraint firstItem="Qmi-3J-aGE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="odD-Nn-Anf"/>
+                            <constraint firstItem="3sh-wI-PSK" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="yFV-cZ-XHi"/>
+                            <constraint firstItem="Qmi-3J-aGE" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="yuC-Dv-MRP"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="Wsd-EZ-nW0" id="Dro-Ae-ygB"/>
+                        <outlet property="lastButton" destination="Pzk-Do-mLN" id="FkA-dX-giN"/>
+                        <outlet property="mapButton" destination="Vqb-2x-Omh" id="WsK-WI-6rO"/>
+                        <outlet property="nextButton" destination="3sh-wI-PSK" id="gdq-Aj-8pi"/>
+                        <outlet property="planetSettingsButton" destination="8cX-2k-MMw" id="Yfp-0y-eW6"/>
+                        <outlet property="playPauseButton" destination="kUc-05-tSj" id="dUE-w6-WZH"/>
+                        <outlet property="resetButton" destination="HIy-Dk-IHm" id="RSk-OF-Ig5"/>
+                        <outlet property="sceneView" destination="Qmi-3J-aGE" id="lPA-Hd-ExT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="#RestartScene" width="80" height="80"/>
+    </resources>
+</document>

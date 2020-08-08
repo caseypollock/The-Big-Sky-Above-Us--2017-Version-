@@ -7,20 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8CBF41F1FA691AA0029646D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8CBF41D1FA691A80029646D /* Main.storyboard */; };
+		B8CBF4201FA691AA0029646D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8CBF41E1FA691AA0029646D /* LaunchScreen.storyboard */; };
+		C92CAFFE1FA89103009FD198 /* The Planet Venus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C92CAFFC1FA890F3009FD198 /* The Planet Venus.mp3 */; };
+		C92CAFFF1FA89108009FD198 /* The Planet Mercury.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C92CAFFD1FA890F3009FD198 /* The Planet Mercury.mp3 */; };
+		C92CB0071FA89320009FD198 /* The Planet Earth.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C92CB0021FA892F3009FD198 /* The Planet Earth.mp3 */; };
+		C92CB0081FA89320009FD198 /* The Planet Mars.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C92CB0051FA892F5009FD198 /* The Planet Mars.mp3 */; };
+		C92CB0091FA89320009FD198 /* The Planet Jupiter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C92CB0031FA892F3009FD198 /* The Planet Jupiter.mp3 */; };
+		C92CB00A1FA89320009FD198 /* The Planet Saturn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C92CB0041FA892F4009FD198 /* The Planet Saturn.mp3 */; };
+		C92CB00B1FA89320009FD198 /* The Planet Neptune.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C92CB0061FA892F6009FD198 /* The Planet Neptune.mp3 */; };
+		C92CB00C1FA89320009FD198 /* The Planet Uranus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C92CB0011FA892F2009FD198 /* The Planet Uranus.mp3 */; };
+		C92CB00D1FA89320009FD198 /* Pluto's Still A Planet In My Heart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C92CB0001FA892F2009FD198 /* Pluto's Still A Planet In My Heart.mp3 */; };
+		C92CB00F1FA8BC98009FD198 /* Luna the Moon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C92CB00E1FA8BC91009FD198 /* Luna the Moon.mp3 */; };
+		C92CB0111FA8BCCD009FD198 /* Deimos the Moon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C92CB0101FA8BCC9009FD198 /* Deimos the Moon.mp3 */; };
+		C92CB0141FA8BD57009FD198 /* Charon the Moon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C92CB0131FA8BD53009FD198 /* Charon the Moon.mp3 */; };
+		C92CB0151FA8BD5C009FD198 /* Phobos the Moon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C92CB0121FA8BD49009FD198 /* Phobos the Moon.mp3 */; };
+		C92CB0181FA9466E009FD198 /* Io the Moon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C92CB0161FA94656009FD198 /* Io the Moon.mp3 */; };
+		C92CB0191FA9466E009FD198 /* Europa the Moon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C92CB0171FA94669009FD198 /* Europa the Moon.mp3 */; };
+		C92CB01C1FA94882009FD198 /* Callisto the Moon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C92CB01B1FA94799009FD198 /* Callisto the Moon.mp3 */; };
+		C92CB01D1FA94885009FD198 /* Ganymede the Moon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C92CB01A1FA94704009FD198 /* Ganymede the Moon.mp3 */; };
+		C92CB01F1FA94970009FD198 /* Triton the Moon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C92CB01E1FA94964009FD198 /* Triton the Moon.mp3 */; };
+		C92CB0251FA95664009FD198 /* Titania the Moon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C92CB0201FA95623009FD198 /* Titania the Moon.mp3 */; };
+		C92CB0261FA95664009FD198 /* Miranda the Moon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C92CB0211FA95632009FD198 /* Miranda the Moon.mp3 */; };
+		C92CB0271FA95664009FD198 /* Oberon the Moon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C92CB0221FA95640009FD198 /* Oberon the Moon.mp3 */; };
+		C92CB0281FA95664009FD198 /* Umbriel the Moon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C92CB0231FA9564B009FD198 /* Umbriel the Moon.mp3 */; };
+		C92CB0291FA95664009FD198 /* Ariel the Moon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C92CB0241FA95659009FD198 /* Ariel the Moon.mp3 */; };
+		C92CB02E1FA957AC009FD198 /* Titan the Moon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C92CB02A1FA9576B009FD198 /* Titan the Moon.mp3 */; };
+		C92CB02F1FA957AC009FD198 /* Mimas the Moon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C92CB02B1FA95781009FD198 /* Mimas the Moon.mp3 */; };
+		C92CB0301FA957AC009FD198 /* Iapetus the Moon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C92CB02C1FA9578B009FD198 /* Iapetus the Moon.mp3 */; };
+		C92CB0311FA957AC009FD198 /* Enceladus the Moon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C92CB02D1FA957A6009FD198 /* Enceladus the Moon.mp3 */; };
+		C939F7DB1FA6D8E00041E73F /* The Sun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C939F7DA1FA6D8620041E73F /* The Sun.mp3 */; };
+		C9443A4A1FBF17A3007E3C4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9443A491FBF17A3007E3C4C /* Assets.xcassets */; };
+		C96368401FA663E700E11D2E /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = C963683F1FA663E700E11D2E /* art.scnassets */; };
 		C9C156DB1FA4C4D3000D17D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C156DA1FA4C4D3000D17D7 /* AppDelegate.swift */; };
 		C9C156DD1FA4C4D3000D17D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C156DC1FA4C4D3000D17D7 /* ViewController.swift */; };
-		C9C156E01FA4C4D3000D17D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9C156DE1FA4C4D3000D17D7 /* Main.storyboard */; };
-		C9C156E21FA4C4D3000D17D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9C156E11FA4C4D3000D17D7 /* Assets.xcassets */; };
-		C9C156E51FA4C4D3000D17D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9C156E31FA4C4D3000D17D7 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B8CBF41D1FA691A80029646D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B8CBF41E1FA691AA0029646D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C92CAFFC1FA890F3009FD198 /* The Planet Venus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Planet Venus.mp3"; sourceTree = "<group>"; };
+		C92CAFFD1FA890F3009FD198 /* The Planet Mercury.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Planet Mercury.mp3"; sourceTree = "<group>"; };
+		C92CB0001FA892F2009FD198 /* Pluto's Still A Planet In My Heart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Pluto's Still A Planet In My Heart.mp3"; sourceTree = "<group>"; };
+		C92CB0011FA892F2009FD198 /* The Planet Uranus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Planet Uranus.mp3"; sourceTree = "<group>"; };
+		C92CB0021FA892F3009FD198 /* The Planet Earth.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Planet Earth.mp3"; sourceTree = "<group>"; };
+		C92CB0031FA892F3009FD198 /* The Planet Jupiter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Planet Jupiter.mp3"; sourceTree = "<group>"; };
+		C92CB0041FA892F4009FD198 /* The Planet Saturn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Planet Saturn.mp3"; sourceTree = "<group>"; };
+		C92CB0051FA892F5009FD198 /* The Planet Mars.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Planet Mars.mp3"; sourceTree = "<group>"; };
+		C92CB0061FA892F6009FD198 /* The Planet Neptune.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Planet Neptune.mp3"; sourceTree = "<group>"; };
+		C92CB00E1FA8BC91009FD198 /* Luna the Moon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Luna the Moon.mp3"; sourceTree = "<group>"; };
+		C92CB0101FA8BCC9009FD198 /* Deimos the Moon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Deimos the Moon.mp3"; sourceTree = "<group>"; };
+		C92CB0121FA8BD49009FD198 /* Phobos the Moon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Phobos the Moon.mp3"; sourceTree = "<group>"; };
+		C92CB0131FA8BD53009FD198 /* Charon the Moon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Charon the Moon.mp3"; sourceTree = "<group>"; };
+		C92CB0161FA94656009FD198 /* Io the Moon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Io the Moon.mp3"; sourceTree = "<group>"; };
+		C92CB0171FA94669009FD198 /* Europa the Moon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Europa the Moon.mp3"; sourceTree = "<group>"; };
+		C92CB01A1FA94704009FD198 /* Ganymede the Moon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ganymede the Moon.mp3"; sourceTree = "<group>"; };
+		C92CB01B1FA94799009FD198 /* Callisto the Moon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Callisto the Moon.mp3"; sourceTree = "<group>"; };
+		C92CB01E1FA94964009FD198 /* Triton the Moon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Triton the Moon.mp3"; sourceTree = "<group>"; };
+		C92CB0201FA95623009FD198 /* Titania the Moon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Titania the Moon.mp3"; sourceTree = "<group>"; };
+		C92CB0211FA95632009FD198 /* Miranda the Moon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Miranda the Moon.mp3"; sourceTree = "<group>"; };
+		C92CB0221FA95640009FD198 /* Oberon the Moon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Oberon the Moon.mp3"; sourceTree = "<group>"; };
+		C92CB0231FA9564B009FD198 /* Umbriel the Moon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Umbriel the Moon.mp3"; sourceTree = "<group>"; };
+		C92CB0241FA95659009FD198 /* Ariel the Moon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ariel the Moon.mp3"; sourceTree = "<group>"; };
+		C92CB02A1FA9576B009FD198 /* Titan the Moon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Titan the Moon.mp3"; sourceTree = "<group>"; };
+		C92CB02B1FA95781009FD198 /* Mimas the Moon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mimas the Moon.mp3"; sourceTree = "<group>"; };
+		C92CB02C1FA9578B009FD198 /* Iapetus the Moon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Iapetus the Moon.mp3"; sourceTree = "<group>"; };
+		C92CB02D1FA957A6009FD198 /* Enceladus the Moon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Enceladus the Moon.mp3"; sourceTree = "<group>"; };
+		C939F7DA1FA6D8620041E73F /* The Sun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Sun.mp3"; sourceTree = "<group>"; };
+		C9443A491FBF17A3007E3C4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../1.0/The Big Sky Above Us/The Big Sky Above Us/Assets.xcassets"; sourceTree = "<group>"; };
+		C963683F1FA663E700E11D2E /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		C9C156D71FA4C4D3000D17D7 /* The Big Sky Above Us.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Big Sky Above Us.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9C156DA1FA4C4D3000D17D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9C156DC1FA4C4D3000D17D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C9C156DF1FA4C4D3000D17D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C9C156E11FA4C4D3000D17D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C9C156E41FA4C4D3000D17D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9C156E61FA4C4D3000D17D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -35,6 +93,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C939F7D91FA6D8270041E73F /* Original Soundtrack */ = {
+			isa = PBXGroup;
+			children = (
+				C939F7DA1FA6D8620041E73F /* The Sun.mp3 */,
+				C92CAFFD1FA890F3009FD198 /* The Planet Mercury.mp3 */,
+				C92CAFFC1FA890F3009FD198 /* The Planet Venus.mp3 */,
+				C92CB0021FA892F3009FD198 /* The Planet Earth.mp3 */,
+				C92CB00E1FA8BC91009FD198 /* Luna the Moon.mp3 */,
+				C92CB0051FA892F5009FD198 /* The Planet Mars.mp3 */,
+				C92CB0101FA8BCC9009FD198 /* Deimos the Moon.mp3 */,
+				C92CB0121FA8BD49009FD198 /* Phobos the Moon.mp3 */,
+				C92CB0031FA892F3009FD198 /* The Planet Jupiter.mp3 */,
+				C92CB0161FA94656009FD198 /* Io the Moon.mp3 */,
+				C92CB0171FA94669009FD198 /* Europa the Moon.mp3 */,
+				C92CB01A1FA94704009FD198 /* Ganymede the Moon.mp3 */,
+				C92CB01B1FA94799009FD198 /* Callisto the Moon.mp3 */,
+				C92CB0041FA892F4009FD198 /* The Planet Saturn.mp3 */,
+				C92CB02A1FA9576B009FD198 /* Titan the Moon.mp3 */,
+				C92CB02B1FA95781009FD198 /* Mimas the Moon.mp3 */,
+				C92CB02C1FA9578B009FD198 /* Iapetus the Moon.mp3 */,
+				C92CB02D1FA957A6009FD198 /* Enceladus the Moon.mp3 */,
+				C92CB0061FA892F6009FD198 /* The Planet Neptune.mp3 */,
+				C92CB01E1FA94964009FD198 /* Triton the Moon.mp3 */,
+				C92CB0011FA892F2009FD198 /* The Planet Uranus.mp3 */,
+				C92CB0201FA95623009FD198 /* Titania the Moon.mp3 */,
+				C92CB0211FA95632009FD198 /* Miranda the Moon.mp3 */,
+				C92CB0221FA95640009FD198 /* Oberon the Moon.mp3 */,
+				C92CB0231FA9564B009FD198 /* Umbriel the Moon.mp3 */,
+				C92CB0241FA95659009FD198 /* Ariel the Moon.mp3 */,
+				C92CB0001FA892F2009FD198 /* Pluto's Still A Planet In My Heart.mp3 */,
+				C92CB0131FA8BD53009FD198 /* Charon the Moon.mp3 */,
+			);
+			path = "Original Soundtrack";
+			sourceTree = "<group>";
+		};
 		C9C156CE1FA4C4D3000D17D7 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +147,14 @@
 		C9C156D91FA4C4D3000D17D7 /* The Big Sky Above Us */ = {
 			isa = PBXGroup;
 			children = (
+				C939F7D91FA6D8270041E73F /* Original Soundtrack */,
 				C9C156DA1FA4C4D3000D17D7 /* AppDelegate.swift */,
 				C9C156DC1FA4C4D3000D17D7 /* ViewController.swift */,
-				C9C156DE1FA4C4D3000D17D7 /* Main.storyboard */,
-				C9C156E11FA4C4D3000D17D7 /* Assets.xcassets */,
-				C9C156E31FA4C4D3000D17D7 /* LaunchScreen.storyboard */,
+				B8CBF41D1FA691A80029646D /* Main.storyboard */,
+				B8CBF41E1FA691AA0029646D /* LaunchScreen.storyboard */,
+				C9443A491FBF17A3007E3C4C /* Assets.xcassets */,
 				C9C156E61FA4C4D3000D17D7 /* Info.plist */,
+				C963683F1FA663E700E11D2E /* art.scnassets */,
 			);
 			path = "The Big Sky Above Us";
 			sourceTree = "<group>";
@@ -96,6 +191,7 @@
 				TargetAttributes = {
 					C9C156D61FA4C4D3000D17D7 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 1100;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,9 +219,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9C156E51FA4C4D3000D17D7 /* LaunchScreen.storyboard in Resources */,
-				C9C156E21FA4C4D3000D17D7 /* Assets.xcassets in Resources */,
-				C9C156E01FA4C4D3000D17D7 /* Main.storyboard in Resources */,
+				C92CB00B1FA89320009FD198 /* The Planet Neptune.mp3 in Resources */,
+				C92CB0281FA95664009FD198 /* Umbriel the Moon.mp3 in Resources */,
+				C92CB0311FA957AC009FD198 /* Enceladus the Moon.mp3 in Resources */,
+				C92CB0081FA89320009FD198 /* The Planet Mars.mp3 in Resources */,
+				C92CB01F1FA94970009FD198 /* Triton the Moon.mp3 in Resources */,
+				B8CBF4201FA691AA0029646D /* LaunchScreen.storyboard in Resources */,
+				C92CB0141FA8BD57009FD198 /* Charon the Moon.mp3 in Resources */,
+				C939F7DB1FA6D8E00041E73F /* The Sun.mp3 in Resources */,
+				C92CB02F1FA957AC009FD198 /* Mimas the Moon.mp3 in Resources */,
+				C92CB00D1FA89320009FD198 /* Pluto's Still A Planet In My Heart.mp3 in Resources */,
+				C92CB00C1FA89320009FD198 /* The Planet Uranus.mp3 in Resources */,
+				C92CB0301FA957AC009FD198 /* Iapetus the Moon.mp3 in Resources */,
+				C92CB0261FA95664009FD198 /* Miranda the Moon.mp3 in Resources */,
+				C92CB01C1FA94882009FD198 /* Callisto the Moon.mp3 in Resources */,
+				C92CB00A1FA89320009FD198 /* The Planet Saturn.mp3 in Resources */,
+				C92CAFFE1FA89103009FD198 /* The Planet Venus.mp3 in Resources */,
+				C92CB02E1FA957AC009FD198 /* Titan the Moon.mp3 in Resources */,
+				C92CB0071FA89320009FD198 /* The Planet Earth.mp3 in Resources */,
+				C92CB0181FA9466E009FD198 /* Io the Moon.mp3 in Resources */,
+				B8CBF41F1FA691AA0029646D /* Main.storyboard in Resources */,
+				C92CB0251FA95664009FD198 /* Titania the Moon.mp3 in Resources */,
+				C92CB0091FA89320009FD198 /* The Planet Jupiter.mp3 in Resources */,
+				C92CB01D1FA94885009FD198 /* Ganymede the Moon.mp3 in Resources */,
+				C92CB0111FA8BCCD009FD198 /* Deimos the Moon.mp3 in Resources */,
+				C92CB0271FA95664009FD198 /* Oberon the Moon.mp3 in Resources */,
+				C92CB0151FA8BD5C009FD198 /* Phobos the Moon.mp3 in Resources */,
+				C92CB00F1FA8BC98009FD198 /* Luna the Moon.mp3 in Resources */,
+				C96368401FA663E700E11D2E /* art.scnassets in Resources */,
+				C92CAFFF1FA89108009FD198 /* The Planet Mercury.mp3 in Resources */,
+				C92CB0191FA9466E009FD198 /* Europa the Moon.mp3 in Resources */,
+				C9443A4A1FBF17A3007E3C4C /* Assets.xcassets in Resources */,
+				C92CB0291FA95664009FD198 /* Ariel the Moon.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,25 +267,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		C9C156DE1FA4C4D3000D17D7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C9C156DF1FA4C4D3000D17D7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C9C156E31FA4C4D3000D17D7 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C9C156E41FA4C4D3000D17D7 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C9C156E71FA4C4D3000D17D7 /* Debug */ = {
@@ -211,7 +317,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -262,7 +368,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -275,12 +381,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = W82Y7WX43R;
 				INFOPLIST_FILE = "The Big Sky Above Us/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Near-Future-Marketing.The-Big-Sky-Above-Us";
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Near-Future-Marketing.The-Big-Sky-Above-Us";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -290,12 +398,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = W82Y7WX43R;
 				INFOPLIST_FILE = "The Big Sky Above Us/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Near-Future-Marketing.The-Big-Sky-Above-Us";
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Near-Future-Marketing.The-Big-Sky-Above-Us";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
